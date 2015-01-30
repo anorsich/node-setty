@@ -22,6 +22,12 @@ setty.load({
       configFileName: 'config.json', // Default value
       settingsDir: path.join(__dirname, 'settings')
     });
+    
+//Reading settings
+var connection = setty.get('connection');
+
+//Reading nested settings
+var connection = setty.get('facebook:token');
 
 ```
 
