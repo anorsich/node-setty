@@ -23,7 +23,8 @@ setty.load({
       settingsDir: path.join(__dirname, 'settings')
     });
 
-``
+```
+
 
 Example settings folder structure:
 
