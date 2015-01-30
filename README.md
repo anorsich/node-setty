@@ -2,7 +2,7 @@ Key/value configuration management
 --
 
 Setty is a small node configuration util, which help better manage key/value settings across different environments.
-Depends on (nconf)[https://github.com/flatiron/nconf].
+Depends on [nconf](https://github.com/flatiron/nconf).
 
 ## Installation
 
