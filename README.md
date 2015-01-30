@@ -2,7 +2,7 @@ Key/value configuration management
 --
 
 Setty is a small node configuration util, which help better manage key/value settings across different environments.
-Depends on (nconf)[https://github.com/flatiron/nconf].
+Depends on [nconf](https://github.com/flatiron/nconf).
 
 ## Installation
 
@@ -22,8 +22,15 @@ setty.load({
       configFileName: 'config.json', // Default value
       settingsDir: path.join(__dirname, 'settings')
     });
+    
+//Reading settings
+var connection = setty.get('connection');
 
-``
+//Reading nested settings
+var connection = setty.get('facebook:token');
+
+```
+
 
 Example settings folder structure:
 
