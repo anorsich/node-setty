@@ -2,7 +2,7 @@
   "name": "setty",
   "version": "1.0.0",
   "description": "Configs management application",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha test/test"
   },

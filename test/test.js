@@ -1,5 +1,5 @@
 var assert = require('assert');
-var setty = require('../lib/index');
+var setty = require('..');
 var path = require('path');
 
 describe('Setty', function() {

@@ -14,7 +14,7 @@ npm install setty --save-dev
 ## Usage exampple:
 
 ```
-var setty = require('../lib/index');
+var setty = require('setty');
 var path = require('path');
 
 setty.load({
