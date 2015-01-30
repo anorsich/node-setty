@@ -1,0 +1,6 @@
+*.bak
+*.log
+node_modules/
+build/
+*.zip
+.idea

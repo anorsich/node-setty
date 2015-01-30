@@ -1,0 +1,32 @@
+{
+  "name": "setty",
+  "version": "1.0.0",
+  "description": "Configs management application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:anorsich/node-setty.git"
+  },
+  "keywords": [
+    "config",
+    "configuration",
+    "management",
+    "key value"
+  ],
+  "author": "Andrew Orsich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anorsich/node-setty/issues"
+  },
+  "homepage": "https://github.com/anorsich/node-setty",
+  "dependencies": {
+    "nconf": "^0.7.1",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
