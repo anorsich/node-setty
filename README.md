@@ -18,6 +18,7 @@ var setty = require('setty');
 var path = require('path');
 
 setty.load({
+      profileEnv: 'SETTY_PROFILE',
       profile: '.config', // Default value
       configFileName: 'config.json', // Default value
       settingsDir: path.join(__dirname, 'settings')
@@ -30,6 +31,8 @@ var connection = setty.get('connection');
 var connection = setty.get('facebook:token');
 
 ```
+
+Profile can be specified in config file (.config by default) or via environment variable SETTY_PROFILE (name can be changed).
 
 
 Example settings folder structure:

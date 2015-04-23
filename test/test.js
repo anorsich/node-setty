@@ -25,4 +25,17 @@ describe('Setty', function() {
   it('throw an error if root config file does not exists', function(){
     assert.throws(setty.load.bind(null, {configFileName: 'not-exists.json'}));
   });
+
+  it('should load profile from environment variable', function(){
+
+    process.env['SETTY_PROFILE1'] = 'andrew';
+    setty.load({
+      profileEnv: 'SETTY_PROFILE1',
+      profile: '.not-exists',
+      configFileName: 'config.json',
+      settingsDir: path.join(__dirname, 'settings')
+    });
+
+    assert.equal(setty.get('connection'), "Andrew's connection");
+  });
 });
