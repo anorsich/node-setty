@@ -1,6 +1,6 @@
 {
   "name": "setty",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Configs management application",
   "main": "lib/index.js",
   "scripts": {
